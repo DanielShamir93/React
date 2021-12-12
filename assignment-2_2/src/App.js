@@ -12,11 +12,11 @@ function App() {
 
   return (
     <div className="App">
-      // 1
+      {/* 1 */}
       <p>{`${data[0].toUpperCase()} ${data[1].toUpperCase()}`}</p>
-      // 2
+      {/* 2 */}
       <p>{`${number1} + ${number2} = ${number1 + number2}`}</p>
-      // 3
+      {/* 3 */}
       <p>{`The string’s length is ${string}`}</p>
     </div>
   );
