@@ -1,0 +1,30 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.increment {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background: yellow;
+}
+
+.hide {
+    visibility: hidden;
+}
