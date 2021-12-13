@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    padding: 0 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: orange;
+    padding-right: 30px;
+}
+
+
+
