@@ -1,15 +1,13 @@
 import '../styles.css';
 import Button from './Button.component'
 
-function Components41() {
+export default function Components41() {
 
     return (
-        <>
+        <div>
             <Button text="Important" styles={{fontWeight: 'bold'}} />
             <Button text="Not Important" />
-        </>
+        </div>
     )
 
 }
-
-export default Components41;

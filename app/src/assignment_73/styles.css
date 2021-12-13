@@ -1,0 +1,23 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    margin: 0 10px;
+    background: black;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
