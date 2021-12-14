@@ -1,0 +1,38 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    transform: translateX(-100vw);
+    animation: box-animation 5s forwards 1s;
+}
+
+@keyframes box-animation {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(0);
+        opacity: 1;
+    } 
+    100% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
