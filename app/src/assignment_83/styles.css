@@ -1,0 +1,15 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+    width: 300px;
+    height: 300px;
+}
+
+.circle {
+    border-radius: 50%;
+}

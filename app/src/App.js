@@ -5,6 +5,7 @@ import Components72 from './assignment_72/components/Components72';
 import Components73 from './assignment_73/components/Components73';
 import Components81 from './assignment_81/components/Components81';
 import Components82 from './assignment_82/components/Components82';
+import Components83 from './assignment_83/components/Components83';
 
 function App() {
     return (
@@ -14,8 +15,9 @@ function App() {
             {/* <Components71 /> */}
             {/* <Components72 /> */}
             {/* <Components73 /> */}
-            <Components81 />
+            {/* <Components81 /> */}
             {/* <Components82 /> */}
+            <Components83 />
 
 
         </div>
