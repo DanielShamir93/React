@@ -1,0 +1,23 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spinner {
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: blue transparent transparent;
+    border-left-width: 0;
+    animation: spinner-animation 1s infinite linear;
+}
+
+@keyframes spinner-animation {
+    to {
+        transform: rotate(360deg);
+    }
+}
