@@ -1,0 +1,14 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
