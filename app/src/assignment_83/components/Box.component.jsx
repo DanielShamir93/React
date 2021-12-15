@@ -21,7 +21,7 @@ export default class Box extends React.Component {
             }
             this.setState((prevState) => {
                 return {
-                    angle: prevState.angle + angleDelta,
+                    angle: prevState.angle + angleDelta % 360,
                     round: prevState.round + 1
                 };
             })

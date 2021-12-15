@@ -1,0 +1,22 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3vh;
+    margin-bottom: 10vh;
+}
+
+.Buttons {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button {
+    width: 15vh;
+    height: 8vh;
+}
