@@ -10,9 +10,7 @@ const checkboxes = [
 
 export default class Components112 extends React.Component {
 
-    state = {
-        checkboxes: checkboxes
-    }
+    state = { checkboxes: checkboxes }
 
 
     switchChecked = (checkboxId) => {
