@@ -31,7 +31,7 @@ export default class Components111 extends React.Component {
     render() {
         return (
             <div>
-                <h1 className="title">Child-button clicked was: {this.state.selectedColor}</h1>
+                <h1 className="title">Child-button clicked was: <span style={{color: this.state.selectedColor}}>{this.state.selectedColor}</span></h1>
                 <div className="Buttons">{
                     colors.map((color) => {
                         return <Button key={color.id} cb={this.getChildColor} color={color.name} />
