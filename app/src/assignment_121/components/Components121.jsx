@@ -4,7 +4,7 @@ import '../styles.css'
 
 const randomJoke_url = "https://api.chucknorris.io/jokes/random";
 const JokesCategories_url = 'https://api.chucknorris.io/jokes/categories';
-const jokeCategory_url = 'https://api.chucknorris.io/jokes/random?category=';
+const jokeCategory_url = 'https://api.chucknorris.io/jokes/random?category';
 
 export default class Components121 extends React.Component {
 

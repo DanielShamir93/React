@@ -1,3 +1,4 @@
+import './App.css';
 import Components41 from './assignment_41/components/Components41';
 import Components42 from './assignment_42/components/Components42';
 import Components71 from './assignment_71/components/Components71';
@@ -12,6 +13,7 @@ import Components112 from './assignment_112/components/Components112';
 import Components113 from './assignment_113/components/Components113';
 import Components121 from './assignment_121/components/Components121';
 import Components131 from './assignment_131/components/Components131';
+import Components132 from './assignment_132/components/Components132';
 
 function App() {
     return (
@@ -28,8 +30,8 @@ function App() {
             {/* <Components111 /> */}
             {/* <Components112 /> */}
             {/* <Components121 /> */}
-            
-            <Components131 />
+            {/* <Components131 /> */}
+            <Components132 />
 
         </div>
     );
