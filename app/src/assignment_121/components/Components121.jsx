@@ -4,7 +4,7 @@ import '../styles.css'
 
 const randomJoke_url = "https://api.chucknorris.io/jokes/random";
 const JokesCategories_url = 'https://api.chucknorris.io/jokes/categories';
-const jokeCategory_url = 'https://api.chucknorris.io/jokes/random?';
+const jokeCategory_url = 'https://api.chucknorris.io/jokes/random?category=';
 
 export default class Components121 extends React.Component {
 
@@ -57,7 +57,7 @@ export default class Components121 extends React.Component {
     getCategoryJoke = async (categoryName) => {
         try {
             const response = await axios.get(jokeCategory_url, {
-                params: { category: categoryName }
+                params: { query: categoryName }
             });
             this.setState({categoryJoke: response.data.value})
         } catch(err) {

@@ -11,6 +11,7 @@ import Components111 from './assignment_111/components/Components111';
 import Components112 from './assignment_112/components/Components112';
 import Components113 from './assignment_113/components/Components113';
 import Components121 from './assignment_121/components/Components121';
+import Components131 from './assignment_131/components/Components131';
 
 function App() {
     return (
@@ -26,7 +27,9 @@ function App() {
             {/* <Components91 /> */}
             {/* <Components111 /> */}
             {/* <Components112 /> */}
-            <Components121 />
+            {/* <Components121 /> */}
+            
+            <Components131 />
 
         </div>
     );
