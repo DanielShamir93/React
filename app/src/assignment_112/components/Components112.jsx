@@ -12,11 +12,9 @@ export default class Components112 extends React.Component {
 
     state = { checkboxes: checkboxes }
 
-
     switchChecked = (checkboxId) => {
         const currentCheckbox = this.state.checkboxes.find((checkbox) => checkbox.id === checkboxId);
         currentCheckbox.isChecked = !currentCheckbox.isChecked;
-        console.log(this.state.checkboxes)
         this.setState({checkboxes: this.state.checkboxes})
     }
 
