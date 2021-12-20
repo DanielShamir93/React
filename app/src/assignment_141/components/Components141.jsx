@@ -3,8 +3,11 @@ import '../styles.css'
 
 export default class Components141 extends React.Component {
 
-    state = {};
-    inputRef =  createRef();
+    constructor() {
+        super();
+        this.inputRef =  createRef();
+    }
+    
 
     componentDidMount = () => {
         this.inputRef.current.focus();
