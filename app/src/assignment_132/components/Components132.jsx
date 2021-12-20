@@ -47,7 +47,7 @@ export default class Components132 extends React.Component {
         return avatarsArray.map((avatar, index) => {
             return (
                 <div key={index} className="avatar">
-                    <img className="avatar-picture" src={avatar.picture} alt="avatar-picture"/>
+                    <img className="avatar-picture" src={avatar.picture} alt="avatar-pic"/>
                     <div className="avatar-name">
                         <span className="avatar-title">{avatar.names.title}</span>
                         <span className="avatar-first-name">{avatar.names.first}</span>
