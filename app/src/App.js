@@ -14,6 +14,7 @@ import Components113 from './assignment_113/components/Components113';
 import Components121 from './assignment_121/components/Components121';
 import Components131 from './assignment_131/components/Components131';
 import Components132 from './assignment_132/components/Components132';
+import Components141 from './assignment_141/components/Components141';
 
 function App() {
     return (
@@ -31,7 +32,9 @@ function App() {
             {/* <Components112 /> */}
             {/* <Components121 /> */}
             {/* <Components131 /> */}
-            <Components132 />
+            {/* <Components132 /> */}
+            
+            <Components141 />
 
         </div>
     );

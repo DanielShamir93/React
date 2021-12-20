@@ -29,7 +29,6 @@ export default class Components132 extends React.Component {
                     }
                 })
             })
-
         } catch(err) {
             console.log(err);
         }
@@ -41,9 +40,8 @@ export default class Components132 extends React.Component {
             const firstName = avatar.names.first.toLowerCase();
             const lastName = avatar.names.last.toLowerCase();
             const fullName = firstName + lastName;
-            const filteredNameSpaceFree = this.state.filteredName.replaceAll(' ', '');
-            
-            return fullName.startsWith(filteredNameSpaceFree);
+
+            return fullName.startsWith(this.state.filteredName.replaceAll(' ', ''));
         })
         // Render avatars
         return avatarsArray.map((avatar, index) => {
@@ -61,7 +59,6 @@ export default class Components132 extends React.Component {
     }
 
     render = () => {
-
         return (
             <div className="profiles">
                 
@@ -77,7 +74,5 @@ export default class Components132 extends React.Component {
                 </div>
             </div>
         )
-
     }
-
 }
