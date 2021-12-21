@@ -1,0 +1,23 @@
+.cont {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-link {
+    text-decoration: none;
+    color: black;
+    margin: 0 2vmin;
+    font-weight: bold;
+}
+
+.products-titles {
+    text-decoration: none;
+    color: black;
+    margin: 0 2vmin;
+}
+
+.page-link:hover, .products-titles:hover {
+    text-decoration: underline;
+}

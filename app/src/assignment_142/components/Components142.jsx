@@ -7,7 +7,6 @@ export default class Components142 extends React.Component {
         super()
         this.inputRef =  createRef();
     }
-    
 
     copyEventHandler = () => {
         const text = this.inputRef.current.value;
