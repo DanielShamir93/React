@@ -17,6 +17,7 @@ import Components132 from './assignment_132/components/Components132';
 import Components141 from './assignment_141/components/Components141';
 import Components142 from './assignment_142/components/Components142';
 import Components161 from './assignment_161/components/Components161';
+import Components181 from './assignment_181/components/components181.jsx';
 
 function App() {
     return (
@@ -37,7 +38,8 @@ function App() {
             {/* <Components132 /> */}
             {/* <Components141 /> */}
             {/* <Components142 /> */}
-            <Components161 />
+            {/* <Components161 /> */}
+            <Components181 />
 
         </div>
     );
