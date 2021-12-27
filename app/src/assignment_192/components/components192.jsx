@@ -44,7 +44,7 @@ export default function Components192() {
 
     return (
         <div className="countries">
-            <input className="country-filter" type="text" onChange={(e) => {filterCountries(e)}}/>
+            <input className="country-filter" type="text" onChange={(e) => {filterCountries(e)}} value={filter}/>
             {renderCountries()}
         </div>
     );
