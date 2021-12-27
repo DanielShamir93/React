@@ -7,20 +7,23 @@ export default function Components193() {
     const [data, setData] = useState([]);
     const [query, setQuery] = useState('query');
     const [userInput, setUserInput] = useState('hooks');
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         const search = async (url) => {
-            try {
+            try { 
                 const { data } = await axios.get(url, {
                     params: { query }
                 });
                 setData(data.hits);
+                setLoading(false);
             } catch (err) {
                 console.log(err);
             }
         }
 
         if (query.length > 0) {
+            setLoading(true);
             search('https://hn.algolia.com/api/v1/search/');
         }
 
@@ -29,7 +32,9 @@ export default function Components193() {
     const renderData = () => {
         return (
             data.map((hit) => {
-                return <li key={hit.objectID}>{hit.title}</li>
+                if (hit.title !== null && hit.title !=='') {
+                    return <li key={hit.objectID}>{hit.title}</li>
+                }
             })
         );
     }
@@ -40,9 +45,9 @@ export default function Components193() {
             <input className="hits-input" type="text" onChange={(e) => {setUserInput(e.target.value)}} value={userInput} />
             <button onClick={() => {setQuery(userInput)}}>Search</button>
             <ul>
-                
-                {renderData()}
+                {!loading && renderData()}
             </ul>
+            {loading && <span>Loading...</span>}
         </div>
     );
 };
