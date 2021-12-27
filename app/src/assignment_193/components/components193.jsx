@@ -30,11 +30,13 @@ export default function Components193() {
     }, [query]);
 
     const renderData = () => {
+        const dataClone = data.filter((hit) => {
+            return (hit.title !== null && hit.title !=='');
+        });
+        
         return (
-            data.map((hit) => {
-                if (hit.title !== null && hit.title !=='') {
-                    return <li key={hit.objectID}>{hit.title}</li>
-                }
+            dataClone.map((hit) => {
+                return <li key={hit.objectID}>{hit.title}</li>
             })
         );
     }

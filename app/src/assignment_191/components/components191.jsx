@@ -14,7 +14,6 @@ export default function Components191() {
                     title: data.title, 
                     director: data.director, 
                 });
-                console.log(movie)
             } catch(err) {
                 console.log(err);
             }
