@@ -17,11 +17,12 @@ import Components132 from './assignment_132/components/Components132';
 import Components141 from './assignment_141/components/Components141';
 import Components142 from './assignment_142/components/Components142';
 import Components161 from './assignment_161/components/Components161';
-import Components181 from './assignment_181/components/components181.jsx';
-import Components182 from './assignment_182/components/components182.jsx';
-import Components183 from './assignment_183/components/components183.jsx';
-import Components184 from './assignment_184/components/components184.jsx';
-import Components191 from './assignment_191/components/components191.jsx';
+import Components181 from './assignment_181/components/components181';
+import Components182 from './assignment_182/components/components182';
+import Components183 from './assignment_183/components/components183';
+import Components184 from './assignment_184/components/components184';
+import Components191 from './assignment_191/components/components191';
+import Components192 from './assignment_192/components/components192';
 
 function App() {
     return (
@@ -47,7 +48,8 @@ function App() {
             {/* <Components182 /> */}
             {/* <Components183 /> */}
             {/* <Components184 /> */}
-            <Components191 />
+            {/* <Components191 /> */}
+            <Components192 />
 
         </div>
     );
