@@ -1,6 +1,7 @@
 import axios from 'axios';
 import '../styles.css'
 import { useEffect, useState } from 'react';
+import hash from 'object-hash';
 
 const randomJoke_url = "https://api.chucknorris.io/jokes/random";
 const JokesCategories_url = 'https://api.chucknorris.io/jokes/categories';
